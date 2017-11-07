@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>controls</title>
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon" />
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link href="styles/font-awesome.min.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/controls.css" rel="stylesheet" />
+    <!--<link href="styles/responsive.css" rel="stylesheet" />-->
+</head>
+<body>
+    <div class="custom_wrapper">
+        <header class="custom_title">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4><label>Controls</label></h4>
+                </div>
+            </div>
+        </header>
+        <div class="controls">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 klvrn_col dtl_row">
+                        <input class="cmn_input" placeholder="simple textbox">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 klvrn_col dtl_row">
+                        <textarea id="Textarea1" class="cmn_input" placeholder="textarea"></textarea>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 slct_lbl selectdiv dtl_row">
+                        <label class="lbl_hdr">select</label>
+                        <label>
+                            <select class="cmn_input">
+                                <option value="Chandreshpolra">option1</option>
+                                <option value="Chandreshpolra">option2</option>
+                                <option value="Chandreshpolra">option3</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row">
+                        <label class="lbl_hdr">Password</label>
+                        <div class="input-group">
+                            <input class="cmn_input password" placeholder="Password" type="password">
+                            <span class="input-group-addon custom_icn">
+                                <span class="fa fa-lock"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-2 custom_chk_bx admi_chk">
+                                <input type="checkbox" id="chk1" name="" value="" class="chk_bx">
+                                <label for="chk1"></label>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10 ">
+                                <input class="cmn_input" placeholder="selectable textbox">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-2 custom_chk_bx admi_chk ">
+                                <input type="checkbox" id="chk6" name="" value="" class="chk_bx">
+                                <label for="chk6"></label>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10 selectdiv">
+                                <label>
+                                    <select class="cmn_input">
+                                        <option value="Gujarat">selectable optionbox</option>
+                                        <option value="Maharashtra">abc</option>
+                                        <option value="Bengal">xyz</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row">
+                        <label class="lbl_hdr">label name</label>
+                        <div class="input-group">
+                            <input class="cmn_input" placeholder="label with textbox" type="text">
+                            <span class="input-group-addon custom_icn">
+                                <span class="fa fa-address-card"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row klvrn_dt_picker">
+                        <label class="lbl_hdr">Select Date: </label>
+                        <div id="datetimepicker1" class="input-group date">
+                            <input type="text" class="cmn_input" value="05/01/2017">
+                            <span class="input-group-addon">
+                                <span class="fa fa-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row klvrn_dt_picker">
+                        <label class="lbl_hdr">Select Time: </label>
+                        <div class='input-group date' id='datetimepicker2'>
+                            <input type='text' class="cmn_input" />
+                            <span class="input-group-addon">
+                                <span class="fa fa-clock-o"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 custom_chk_bx dtl_row">
+                        <div class="chk_bx chk_top">
+                            <input type="checkbox" id="chkid1" name="" value="">
+                            <label for="chkid1">check box1</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 custom_radio_btn dtl_row">
+                        <div class="custom_radio">
+                            <input type="radio" id="test1" name="radio-group" checked>
+                            <label for="test1">Radio1</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row">
+
+                        <div class="tgl_switch">
+                            <input type="checkbox" class="tgl" id="lbl_tgl" />
+                            <label for="lbl_tgl"></label>
+                        </div>
+                    </div>
+                    <div class="col-md-12 dtl_row search_div">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <input type='search' class="cmn_input" placeholder="SEARCH RESOURCES - e.g. Java Developer with 3 Years of experience in Pune" />
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btn srch_btn">
+                                    <label>
+                                        Search
+                                    </label>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 dtl_row add_field">
+                        <div class="input-group control-group after-add-more">
+                            <input type="text" name="addmore[]" class="cmn_input" placeholder="Add Field">
+                            <div class="input-group-addon custom_icn">
+                                <button class="add-more" type="button"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="copy-fields hide">
+                        <div class="col-md-6 dtl_row remove_field">
+                            <!-- Copy Fields-These are the fields which we get through jquery and then add after the above input,-->
+                            <div class="input-group control-group after-add-more">
+                                <input type="text" name="addmore[]" class="cmn_input" placeholder="Add Field">
+                                <div class="input-group-addon custom_icn">
+                                    <button class="btn-danger remove" type="button"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 dtl_row">
+                        <div class="upload">
+                            <div class="Uploadbtn">
+                                <input type="file" class="input-upload" />
+                                <span><i class="fa fa-upload" aria-hidden="true"></i></span>
+                            </div>
+                            <label class="upld_lbl">Add Document</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-xs-12 dtl_row  detail_btn">
+                        <button type="button" class="btn btn1">
+                            <label>
+                                button1
+                            </label>
+                        </button>
+                        <button type="button" class="btn btn2">
+                            <label>
+                                button2
+                            </label>
+                        </button>
+                        <button type="button" class="btn btn3">
+                            <label>
+                                button3
+                            </label>
+                        </button>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moment-with-locales.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+
+    <script type="text/javascript">
+        $('#datetimepicker1').datetimepicker({
+            icons: {
+                time: 'fa fa-clock-o',
+                date: 'fa fa-calendar',
+                up: 'fa fa-chevron-up',
+                down: 'fa fa-chevron-down',
+                previous: 'fa fa-chevron-left',
+                next: 'fa fa-chevron-right',
+                today: 'fa fa-crosshairs',
+                clear: 'fa fa-trash'
+            },
+            format: 'MM/DD/YYYY'
+        });
+        $(function () {
+            $('#datetimepicker2').datetimepicker({
+                format: 'LT'
+            });
+        });
+
+        $(document).ready(function () {
+            //here first get the contents of the div with name class copy-fields and add it to after "after-add-more" div class.
+            $(".add-more").click(function () {
+                var html = $(".copy-fields").html();
+                $(".add_field").after(html);
+            });
+            $("body").on("click", ".remove", function () {
+                $(this).parents(".remove_field").remove();
+            });
+        });
+
+    </script>
+</body>
+</html>
